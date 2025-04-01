@@ -13,7 +13,7 @@
   <main>
     <h1>Coin Flip Game</h1>
     <hr>
-    <section id="choice">
+    <section id="choice" class="choice">
       <h2>Pick a Side</h2>
       <button id="heads" onclick="runGame('heads')">
         <img src="svg/coin-head.svg" alt="heads">
@@ -32,7 +32,7 @@
       <h2>Score Board</h2>
       <p>You've played <span id="count">0</span> games.</p>
       <p>You have <span id="wins">0</span> wins and <span id="losses">0</span> losses.</p>
-      <button onclick="resetScore()" id="reset">Reset Score</button>
+      <button onclick="resetScore()" id="reset"><h2 class="reset">Reset Score</h2></button>
     </section>
   </main>
   <script src="js/logic.js"></script>

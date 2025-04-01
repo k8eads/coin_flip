@@ -87,7 +87,7 @@ function runGame(param) {
 
   let numLost = document.getElementById('losses');
   // store an element to output the number of games lost
-  numLost.innertext = gameLosses;
+  numLost.innerText = gameLosses;
   // output # of games played (incremented when the function runs)
 }
 
